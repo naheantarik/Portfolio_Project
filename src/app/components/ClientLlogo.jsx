@@ -32,7 +32,7 @@ export default function ClientLogo() {
 	}, []);
 
 	return (
-		<>
+		<div className="my-[40px]">
 			{/*<!-- Component: Testimonial carousel --> */}
 			<div className="glide-09 relative w-full">
 				{/* <!-- Slides --> */}
@@ -78,6 +78,6 @@ export default function ClientLogo() {
 				</div>
 			</div>
 			{/*<!-- End Testimonial carousel --> */}
-		</>
+		</div>
 	);
 }

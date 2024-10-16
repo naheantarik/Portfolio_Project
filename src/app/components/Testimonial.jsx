@@ -36,7 +36,7 @@ export default function Testimonial() {
 	}, []);
 
 	return (
-		<div className="container py-[60px]">
+		<div className="container overflow-hidden py-[60px]">
 			{/*<!-- Component: Testimonial carousel --> */}
 			<div className="glide-08 relative w-full">
 				{/*    <!-- Slides --> */}

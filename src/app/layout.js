@@ -1,6 +1,7 @@
 import localFont from "next/font/local";
 import "./globals.css";
 import { Epilogue } from "next/font/google";
+import Hero from "./components/hero";
 
 const epilogue = Epilogue({
 	subsets: ["latin"],
@@ -29,6 +30,7 @@ export default function RootLayout({ children }) {
 			<body
 				className={`${geistSans.variable} ${geistMono.variable} antialiased ${epilogue.className} bg-gray-100`}
 			>
+				<Hero/>
 				{children}
 			</body>
 		</html>

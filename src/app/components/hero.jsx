@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "./../../../public/assets/image/HeaderImage 1.png";
 
-const hero = () => {
+const Hero = () => {
 	console.log();
 
 	return (
@@ -40,4 +40,4 @@ const hero = () => {
 	);
 };
 
-export default hero;
+export default Hero;

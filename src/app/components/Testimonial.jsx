@@ -39,6 +39,18 @@ export default function Testimonial() {
 		<div className="container overflow-hidden py-[60px]">
 			{/*<!-- Component: Testimonial carousel --> */}
 			<div className="glide-08 relative w-full">
+				<div className="my-[30px] font-mono text-center">
+					<h2 className="text-[42px]">
+						Our Client{" "}
+						<span className="relative before:absolute before:w-[80px] before:h-[10px] before:bg-red-500 before:bottom-0 before:left-0">
+							Review
+						</span>
+					</h2>
+					<p className="text-[24px]">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet,
+						nesciunt!
+					</p>
+				</div>
 				{/*    <!-- Slides --> */}
 				<div data-glide-el="track">
 					<ul className="whitespace-no-wrap flex-no-wrap [backface-visibility: hidden] [transform-style: preserve-3d] [touch-action: pan-Y] [will-change: transform] relative flex w-full overflow-hidden p-0 pb-12">

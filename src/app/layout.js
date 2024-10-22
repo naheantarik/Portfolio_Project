@@ -9,6 +9,11 @@ const epilogue = Epilogue({
 	display: "swap",
 });
 
+// const poppins = Poppins({
+// 	subsets: ["latin"],
+// 	display: "swap",
+// });
+
 const geistSans = localFont({
 	src: "./fonts/GeistVF.woff",
 	variable: "--font-geist-sans",
